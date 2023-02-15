@@ -70,8 +70,19 @@
 // console.log(count + 'Who do we appreciate?!');
 
 // Exercise 3 redux
-let count = '';
-for(let y = 1; y <= 4; y +=1){
-    count += y + ' '
-}
-console.log(count + 'Who are we all cheering for?!');
+// let count = '';
+// for(let y = 1; y <= 4; y +=1){
+//     count += y + ' '
+// }
+// console.log(count + 'Who are we all cheering for?!');
+
+// Exercise 4 - The Cow
+var sentenceArray = ["the", "cow", "danced", "through", "the", "trees", "in", "the", "light", "of", "the", "moon"];
+let sentence = '';
+let moo = " MOOOOOOOO";
+for(let a = 0; a < sentenceArray.length; a++){
+    if((a + 1) % 3 ===1 && (a != 0)){
+        sentence += moo;
+    } sentence += ` ${sentenceArray[a]}`
+    }
+    console.log(sentence)
