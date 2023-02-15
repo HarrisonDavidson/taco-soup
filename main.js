@@ -63,3 +63,8 @@
 // console.log(totalGradePoints)
 
 // Exercise 3
+let count = '';
+for(let y = 2; y <= 8; y +=2){
+    count += y + ' '
+}
+console.log(count + 'Who do we appreciate?!');
