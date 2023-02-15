@@ -63,8 +63,15 @@
 // console.log(totalGradePoints)
 
 // Exercise 3
+// let count = '';
+// for(let y = 2; y <= 8; y +=2){
+//     count += y + ' '
+// }
+// console.log(count + 'Who do we appreciate?!');
+
+// Exercise 3 redux
 let count = '';
-for(let y = 2; y <= 8; y +=2){
+for(let y = 1; y <= 4; y +=1){
     count += y + ' '
 }
-console.log(count + 'Who do we appreciate?!');
+console.log(count + 'Who are we all cheering for?!');
